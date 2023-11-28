@@ -397,11 +397,11 @@ class CocoTextV2Dataset(Dataset):
 
         paths_file = None
         if mode == 'train':
-            paths_file = 'annotations_train.txt'
+            paths_file = 'coco_annotations_train.txt'
         elif mode == 'dev':
-            paths_file = 'annotations_val.txt'
+            paths_file = 'coco_annotations_val.txt'
         elif mode == 'test':
-            paths_file = 'annotations_test.txt'
+            paths_file = 'coco_annotations_test.txt'
 
         paths = []
         texts = []
